@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <cheatsheet
+      title="Verify Fulfillment Modes">
+  <intro>
+      <description>
+         This cheat sheet guides you through the fulfillment modes created by the design pattern.
+      </description>
+   </intro>
+    <item
+         title="Verify Fulfillment Modes: Deliver, Cancel">
+      <description>
+		The fulfillment modes have been created with <b>Namespace</b> and <b>Description</b> set according to the entries in the design pattern.
+	 </description>
+      <subitem
+            label="Open Fulfillment Mode: Deliver"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/Deliver.fulfillmentMode)"/>
+      </subitem>
+      <subitem
+            label="Open Fulfillment Mode: Cancel"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/Cancel.fulfillmentMode)"/>
+      </subitem>
+   </item>
+  </cheatsheet>

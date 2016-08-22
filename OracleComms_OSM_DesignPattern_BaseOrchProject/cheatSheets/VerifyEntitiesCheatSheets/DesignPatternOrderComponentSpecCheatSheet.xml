@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Verify Order Component Specifications">
+  <intro>
+      <description>
+         This cheat sheet guides you through the order component specifications created by the design pattern.
+      </description>
+   </intro>
+    <item
+         title="Verify Order Component Specifications: DesignPatternFunction, DesignPatternSystem, DesignPatternGranularity">
+      <description>
+		The order components have the <b>Namespace</b> and <b>Description</b> set according to the entries in the design pattern. These order components are intended to serve as entities that can be extended by new order components to create a hierarchy. For example, if a new system called BillingSystem is needed, it can extend the base System order component.
+	 </description>
+      <subitem
+            label="Open Base Function Order Component: DesignPatternFunction"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/FUNCTION/DesignPatternFunction.orderComponentSpec)"/>
+      </subitem>
+      <subitem
+            label="Open Base System Order Component: DesignPatternSystem"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/SYSTEM/DesignPatternSystem.orderComponentSpec)"/>
+      </subitem>
+      <subitem
+            label="Open Base Granularity Order Component: DesignPatternGranularity"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/GRANULARITY/DesignPatternGranularity.orderComponentSpec)"/>
+      </subitem>
+   </item>
+   </cheatsheet>

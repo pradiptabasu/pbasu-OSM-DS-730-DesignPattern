@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Verify Order Recognition Rule">
+  <intro>
+      <description>
+         This cheat sheet guides you through the order recognition rule created by the design pattern.
+      </description>
+   </intro>
+    <item
+         title="Verify Order Recognition Rules: DesignPatternRecognitionRule">
+      <description>
+		The recognition rule has the <b>Description</b>, <b>Namespace</b>, <b>Input Message</b>, and <b>Target Order</b> set according to the entries in the design pattern. 
+		<br/><br/>
+		Template XQuery modules for <b>Recognition Rule</b> in the <b>Recognition</b> subtab and <b>Order Data Rule</b> in the <b>Transformation</b> subtab have been placed in the <b>resources/OrderRecognitionRule</b> directory, and the location of these files has been added to the catalog.xml file using the ResourceURI value entered in the design pattern. These XQuery templates need to be modified for your specific business logic.
+	 </description>
+      <subitem
+            label="Open Recognition Rule: DesignPatternRecognitionRule"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/DesignPatternRecognitionRule.orderRecognitionRule)"/>
+      </subitem>
+      <subitem
+            label="Open DesignPatternOrderData.xquery"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/resources/OrderRecognitionRule/DesignPatternOrderData.xquery)"/>
+      </subitem>
+      <subitem
+            label="Open DesignPatternOrderRecognition.xquery"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/resources/OrderRecognitionRule/DesignPatternOrderRecognition.xquery)"/>
+      </subitem>
+   </item>
+   </cheatsheet>

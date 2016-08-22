@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Verify Orchestration Stages">
+  <intro>
+      <description>
+         This cheat sheet guides you through the orchestration stages created by the design pattern.
+      </description>
+   </intro>
+    <item
+         title="Verify Orchestration Stages: DesignPatternDetermineFulfillmentFunction, DesignPatternDetermineFulfillmentSystem, DesignPatternDetermineProcessingGranularity">
+      <description>
+		Three orchestration stages have been created.  Each has the <b>Description</b> populated, and the appropriate order component is selected by default in the <b>Produces Order Component</b> section.
+	 </description>
+      <subitem
+            label="Open Function Stage: DesignPatternDetermineFulfillmentFunction"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/DesignPatternDetermineFulfillmentFunction.orchestrationStage)"/>
+      </subitem>
+      <subitem
+            label="Open System Stage: DesignPatternDetermineFulfillmentSystem"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/DesignPatternDetermineFulfillmentSystem.orchestrationStage)"/>
+      </subitem>
+      <subitem
+            label="Open Granularity Stage: DesignPatternDetermineProcessingGranularity"
+            skip="true">
+         <command
+               required="false"
+               serialization="org.eclipse.ui.navigate.openResource(filePath=/OracleComms_OSM_DesignPattern_BaseOrchProject/model/DesignPatternDetermineProcessingGranularity.orchestrationStage)"/>
+      </subitem>
+   </item>
+   </cheatsheet>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mslv.com/studio/core/model/common" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:dom="http://xmlns.oracle.com/communications/sce/model/common/entity" xsi:type="dom:FunctionalAreaType" name="Service">
+  <displayName lang="[default]">Service</displayName>
+  <saveVersion>8</saveVersion>
+  <id>--+3e-Ft--+8--+Pgi85Lg</id>
+  <dom:supportedEntities>
+    <id>1CFEZBlt--+q---j--+UIw</id>
+    <elementType>oracle.communications.sce.common.entity.entities.functionalarea.supportedentity</elementType>
+    <dom:mandatory>true</dom:mandatory>
+    <dom:extendSubjectByDefault>true</dom:extendSubjectByDefault>
+    <dom:supportedEntityType>CFS</dom:supportedEntityType>
+  </dom:supportedEntities>
+  <dom:supportedEntities>
+    <id>yLsOZBV---+CBwRZip4OYQ</id>
+    <elementType>oracle.communications.sce.common.entity.entities.functionalarea.supportedentity</elementType>
+    <dom:extendSubjectByDefault>true</dom:extendSubjectByDefault>
+    <dom:supportedEntityType>RFS</dom:supportedEntityType>
+  </dom:supportedEntities>
+  <dom:supportedEntities>
+    <id>aiwi---r--+d---LgCZ7nw</id>
+    <elementType>oracle.communications.sce.common.entity.entities.functionalarea.supportedentity</elementType>
+    <dom:extendSubjectByDefault>true</dom:extendSubjectByDefault>
+    <dom:supportedEntityType>RESOURCE</dom:supportedEntityType>
+  </dom:supportedEntities>
+  <dom:realization>
+    <id>--+F2DZH--+b---m7GQ9Dg</id>
+    <elementType>oracle.communications.sce.common.entity.entities.functionalarea.functionalarearealization</elementType>
+    <dom:designPattern></dom:designPattern>
+    <dom:functionalAreaRealizationStruct>NONE</dom:functionalAreaRealizationStruct>
+    <dom:areaRealizationDesignPattern xsi:nil="true"/>
+  </dom:realization>
+  <dom:actionCodes>
+    <id>---RprYJ--+l--+FFyIglA</id>
+    <elementType>oracle.communications.sce.common.entity.entities.functionalarea.functionalareaactioncodes</elementType>
+  </dom:actionCodes>
+  <dom:actionPrefix>
+    <id>---4s9Zx--+j---k--+V9Q</id>
+    <elementType>oracle.communications.sce.common.entity.entities.functionalarea.actionprefix</elementType>
+    <dom:prefix>ServiceActions</dom:prefix>
+    <dom:supportAction>true</dom:supportAction>
+  </dom:actionPrefix>
+  <dom:providerFunctions>
+    <id>AoBs--+---+s---PkY5wGA</id>
+    <elementType>oracle.communications.sce.common.entity.entities.functionalarea.functionalareaproviderfunctions</elementType>
+    <dom:providerFunctions>
+      <entity>DesignAndAssign</entity>
+      <entityType>provFunc</entityType>
+      <relationship>oracle.communications.sce.common.entity.entities.functionalarea.functionalareaproviderfunctions.provFuncRef</relationship>
+    </dom:providerFunctions>
+    <dom:providerFunctions>
+      <entity>Calculate_Technical_Order</entity>
+      <entityType>provFunc</entityType>
+      <relationship>oracle.communications.sce.common.entity.entities.functionalarea.functionalareaproviderfunctions.provFuncRef</relationship>
+    </dom:providerFunctions>
+  </dom:providerFunctions>
+</modelEntity>

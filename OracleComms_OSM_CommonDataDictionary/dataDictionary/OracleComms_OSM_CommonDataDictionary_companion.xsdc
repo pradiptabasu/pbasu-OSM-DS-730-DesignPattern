@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:layout="http://xmlns.oracle.com/communications/sce/poms/model/layout" xmlns:poms="http://xmlns.oracle.com/communications/sce/poms/model/poms" xmlns:provisioning="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:specification="http://www.mslv.com/studio/inventory/model/specification" xsi:type="com:dataDictionaryCompanionType" name="OracleComms_OSM_CommonDataDictionary_companion">
+  <com:displayName>OracleComms_OSM_CommonDataDictionary</com:displayName>
+  <com:information>Change Log v3.0.0.0.0:&#xD;
+Added Order Transformation Manager Control Data &#xD;
+Add Default Order Item Property Defintions for LineID, LineName, Requested Delivery Date, Action and dynamicParams</com:information>
+  <com:saveVersion>42</com:saveVersion>
+  <com:id>MK9l---J--+mUR9aGwEC1Q</com:id>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>ExternalFulfillmentState</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>ExternalFulfillmentState</com:dataElementId>
+    <com:displayName>External Fulfillment State</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---C--+l--+m---k---uZg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>ExternalFulfillmentState</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>kH0HNelu--+OaWICFcEhUg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>ExternalFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>efNP---z--+AkDhWvzRZjw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>ExternalFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>K05zqzPwRKyl0hyFL+AtEg</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>ExternalFulfillmentState</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>Functions</com:element>
+    <com:elementType>Functions</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>Functions</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+CWNdI--+A---G---x+g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>Functions</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>vSpAh7wa--+I---x---4hw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>Functions</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>OrderItemStatus</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>OrderItemStatus</com:dataElementId>
+    <com:displayName>Order Item Status</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+EDb1w--+j---hAeR9zA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>OrderItemStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>0kwP------+d---TvzFcJw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>OrderItemStatus</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>ytA+---c--+EIC0y--+Wxg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>OrderItemStatus</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>2k0fbzghR3OdHgWSpmEcZw</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>OrderItemStatus</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>PointOfNoReturn</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>PointOfNoReturn</com:dataElementId>
+    <com:displayName>Point Of No Return</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>f6se---u--+v---1yBxIow</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>PointOfNoReturn</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>ITsu--+k--+f---FzTATjw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>PointOfNoReturn</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>gBI5--+C--+LX0Ad--+2QA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>PointOfNoReturn</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>a7EMn41ISeC+umtEc2Awjw</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>PointOfNoReturn</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>OrderItem</com:element>
+    <com:elementType>OrderItem</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>OrderItem</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>-1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---W---+--+c---7---zRg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>OrderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---Q---M--+j9S4j---6RQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>OrderItem</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType</com:element>
+    <com:elementType>FulfillmentFunctionType</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType</com:dataElementId>
+    <com:displayName>Fulfillment Function</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>-1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+J+8Rh--+BhfEcG193WA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+CAZVd--+M9h9L---wFg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/componentKey</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/componentKey</com:dataElementId>
+    <com:displayName>Component Key</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>ZJZT3mc4--+pQyoH---3wA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>1000</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>sT1ry1sW--+n--+C--+Afw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/componentKey</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---G--+A--+2Ox8o--+okw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/componentKey</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/orderItem</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>(Local Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/orderItem</com:dataElementId>
+    <com:displayName>Order Item</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---C2UVz--+fBtgNjqwB6Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>5SYS---o--+w1Rl1Tptf9w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/orderItem/ExternalFulfillmentState</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>ExternalFulfillmentState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/orderItem/ExternalFulfillmentState</com:dataElementId>
+    <com:displayName>External Fulfillment State</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>ZgQ-gFhB--+E9XF2p4hVsQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem/ExternalFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+eMKQl--+d---2---Hjw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem/ExternalFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---J---Y--+S--+cJ6ZnuQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem/ExternalFulfillmentState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>ControlData</com:element>
+    <com:elementType>ControlData</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>ControlData</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---u--+r--+b---R--+i0w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>ControlData</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>-1</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>N+pPSsJE--+F---4oqAN2A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>ControlData</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>ControlData/OrderItem</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>OrderItem</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>ControlData/OrderItem</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>SlBkV9A6--+gml47bWgAhg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>ControlData/OrderItem</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>13lLkqZK--+8ivByFngJAg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>ControlData/OrderItem</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>ControlData/OrderItem/PointOfNoReturn</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>PointOfNoReturn</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>ControlData/OrderItem/PointOfNoReturn</com:dataElementId>
+    <com:displayName>Point Of No Return</com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+6---x--+bc6QfsKUSxA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/PointOfNoReturn</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>P-FrIggC--+B---tevsJWg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/PointOfNoReturn</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>VjwJYTR5--+8---Y---5Yw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/PointOfNoReturn</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>ControlData/Functions</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>Functions</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>ControlData/Functions</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>xW4f--+W--+c--+f---5qg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>ControlData/Functions</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+jO6Bc--+9CjoIqVwBow</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>ControlData/Functions</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>OrderFulfillmentState</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>OrderFulfillmentState</com:dataElementId>
+    <com:displayName>Order Fulfillment State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---woFNZ--+aJaAn--+fkQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>OrderFulfillmentState</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>128</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>-------5--+1--+i---JwA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>OrderFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>SDhh---U--+HUy9yrbtYRg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>OrderFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>xZe9uAAbT9OrqbunlbHmjg</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>OrderFulfillmentState</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>OrderItemFulfillmentState</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>OrderItemFulfillmentState</com:dataElementId>
+    <com:displayName>Order Item Fulfillment State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>Eho3---m--+m--+1WS4Ivw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>OrderItemFulfillmentState</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>128</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>TFU2zSkU--+W---7PIBXNQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>OrderItemFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>Bxkf---3--+fkzo1---u2A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>OrderItemFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>z+yPUrbZS6mgYl6CPHdqoA</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>OrderItemFulfillmentState</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>ControlData/OrderItem/OrderItemFulfillmentState</com:element>
+    <com:elementType>tns:OrderItemFulfillmentState</com:elementType>
+    <com:baseElement>OrderItemFulfillmentState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>ControlData/OrderItem/OrderItemFulfillmentState</com:dataElementId>
+    <com:displayName>Order Item Fulfillment State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+p6sB8--+HLflqg10xYg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/OrderItemFulfillmentState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+Nk9MD--+RQpQe--+M5A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/OrderItemFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>pBk4e4AY--+d--+-QGB1yQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/OrderItemFulfillmentState</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/CalculatedStartDate</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>calculatedStartDate</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/CalculatedStartDate</com:dataElementId>
+    <com:displayName>Calculated Start Date</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---T---t--+CBbts---phA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/CalculatedStartDate</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>KbRkCjE2--+M---z--+yXA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/CalculatedStartDate</data:dataElementId>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/Duration</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>duration</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/Duration</com:dataElementId>
+    <com:displayName>Duration</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType">
+      <provisioning:significant>false</provisioning:significant>
+    </com:extension>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>7jB4---6--+yiBFBDxUEHA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/Duration</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---9iOQ9--+M--+CVIAc+g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/Duration</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+FrK0y--+5--+WRDkWxg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/Duration</data:dataElementId>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>calculatedStartDate</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>dateTime</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>calculatedStartDate</com:dataElementId>
+    <com:displayName>Calculated Start Date</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---2AX5L--+8Aggp---e4Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>calculatedStartDate</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+o--+3--+VRQAbZ6c93Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>calculatedStartDate</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>52Y4qR1BRfqWGYAtaBcljA</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>calculatedStartDate</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>duration</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>duration</com:dataElementId>
+    <com:displayName>Duration</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType">
+      <provisioning:significant>false</provisioning:significant>
+    </com:extension>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+r--+6--+DNNUg7CY2mw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>duration</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>pV5mhGE4--+9---6MkRZmg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>duration</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>4sNN--+H--+Z--+vbbV6dg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>duration</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>sxs6rCDXS8iFTDNSUVpnyg</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>duration</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/calculatedStartDate</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>calculatedStartDate</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/calculatedStartDate</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---T---t--+CBbts---phA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/calculatedStartDate</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>KbRkCjE2--+M---z--+yXA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/calculatedStartDate</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/duration</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>duration</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/duration</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>7jB4---6--+yiBFBDxUEHA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/duration</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---9iOQ9--+M--+CVIAc+g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/duration</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+FrK0y--+5--+WRDkWxg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/duration</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>Recognition</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>Recognition</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>D7dd20le--+h--+8---mzQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>Recognition</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+P--+f--+r--+G--+NPg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>Recognition</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>KV16UM4d--+N---XBpoy3A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>Recognition</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementTagDetails">
+        <com:id>---8--+l--+Ni5hL2QlQAw</com:id>
+        <com:elementType>oracle.communications.studio.model.tag.StudioModelTagDetails</com:elementType>
+        <data:dataElementId>Recognition</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>xknM8UyaTbyaxwr3vtqwZg</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>Recognition</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>dynamicParams</com:element>
+    <com:elementType>dynamicParams</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>dynamicParams</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>JExn--+y--+l--+LsbgxDA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>dynamicParams</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+k---E--+osfoo---CJw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>dynamicParams</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementTagDetails">
+        <com:id>--+J---c--+Z0jM0mdIMhg</com:id>
+        <com:elementType>oracle.communications.studio.model.tag.StudioModelTagDetails</com:elementType>
+        <data:dataElementId>dynamicParams</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>Action</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>Action</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType">
+      <provisioning:significant>true</provisioning:significant>
+    </com:extension>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>p1sh0c9z--+U---x--+x6Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>Action</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+w---F--+7---rp0VfTw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>Action</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+HOsE7--+CTrFL---lzA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>Action</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementTagDetails">
+        <com:id>---p--+Z--+s--+C--+LvA</com:id>
+        <com:elementType>oracle.communications.studio.model.tag.StudioModelTagDetails</com:elementType>
+        <data:dataElementId>Action</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>4yHxyb56QaGWLkmXQLBwdA</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>Action</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>TransformedOrderItem</com:element>
+    <com:elementType>TransformedOrderItem</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>TransformedOrderItem</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>-1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+9SsQn--+QSJYIo84sDg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>TransformedOrderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>RcZhiZRE--+jctBPlAcIQg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>TransformedOrderItem</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext</com:element>
+    <com:elementType>MappingContext</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>LelS---4--+q4spYACwmuw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+WPQBT--+Q--+I---Leg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingContext</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>(Local Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---q---J--+fpMNi--+9EQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>v8cU---o--+Z---m--+9kA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/namespace</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/namespace</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>CVBK---q--+P--+q+ZsTEg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/namespace</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>XD4q---k--+g--+4Q7xB2Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/namespace</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>Tog0---G--+4---h---6YQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/namespace</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---5kJ0P--+i--+8oS4mEQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>ajRF---w--+B--+lgMV56Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/name</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>UOpG--+0--+9ftcc---8Tw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/name</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>(Local Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+d--+M--+---+6agoDlw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/target</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/target</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>mogiNqVc--+u85RM--+R2g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/target</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>---GT8J0--+A--+Q--+kmA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/target</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>lqki--+n--+S---LTAxERw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/target</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>(Local Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>jdYzXjMj--+C--+HwK8Iog</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/source</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/source</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>D7gp98cK--+-Y-sL--+17g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/source</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>---rz8Yu--+3PpFojIdIxA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/source</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>Q6cDKmZW--+u--+l-WpzUQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/source</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType</com:element>
+    <com:elementType>MappingRuleType</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---o------+dV4pb--+JFA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>MappingRuleType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>q390pU0A--+s--+qwPxmGA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/namespace</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/namespace</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>rkJd--+0--+N+y4J---CKw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/namespace</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>cT4msoFM--+3---FhoxOow</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingRuleType/namespace</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---+Bttu--+----Hb5MuAA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/namespace</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/namespace</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/namespace</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>rkJd--+0--+N+y4J---CKw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/namespace</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+BDwou--+L--+af94P6Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>uTFZMF8S--+oofpL--+qfQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingRuleType/name</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>YS9RdHtQ--+qMI0l---EuQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/name</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+BDwou--+L--+af94P6Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>(Local Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>lp8y---Y--+CyQcX-WE+dQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>(Local Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>lp8y---Y--+CyQcX-WE+dQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>AttributeMappingPropertyType</com:element>
+    <com:elementType>AttributeMappingPropertyType</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>AttributeMappingPropertyType</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>ZTJvWA58--+mAygyZ+YyUQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>AttributeMappingPropertyType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Source</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>AttributeMappingPropertyType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Source</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>xtBoqrU3--+d--+zd5c2Pg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Source</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---T--+y--+PRSMC--+KFw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Source</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>AttributeMappingPropertyType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>xtBoqrU3--+d--+zd5c2Pg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>AttributeMappingPropertyType/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>AttributeMappingPropertyType/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+x---Z--+uobFI---W4w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>AttributeMappingPropertyType/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>zn842Zpi--+h----PGBTsQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>AttributeMappingPropertyType/name</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>iBdZab5V--+7pzwnowce9g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>AttributeMappingPropertyType/name</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Source/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Source/name</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+x---Z--+uobFI---W4w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Source/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+x---Z--+uobFI---W4w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>AttributeMappingPropertyType/path</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>AttributeMappingPropertyType/path</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+zS2d6--+3--+d---9Ng</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>AttributeMappingPropertyType/path</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>90FH--+D--+B--+qT594TA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>AttributeMappingPropertyType/path</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>9k0Yqctp--+2Aswr---RSQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>AttributeMappingPropertyType/path</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Source/path</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Source/path</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+zS2d6--+3--+d---9Ng</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Source/path</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/path</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/path</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+zS2d6--+3--+d---9Ng</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/path</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/instanceKeyPath</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/instanceKeyPath</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>T1h2h31U--+R---ayYRH6g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/instanceKeyPath</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/instanceKey</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/instanceKey</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---q--+y--+9mu1f3BAcZA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Source/instanceKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Target</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>AttributeMappingPropertyType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Target</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>cfpT---T--+ywHJO8NYunw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>alZy---m--+O---HHIwFMA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>AttributeMappingPropertyType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>cfpT---T--+ywHJO8NYunw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Target/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Target/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---k--+---+m19ohQwA7tA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/name</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+x---Z--+uobFI---W4w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+x---Z--+uobFI---W4w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Target/path</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Target/path</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+zS2d6--+3--+d---9Ng</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/path</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/path</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/path</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+zS2d6--+3--+d---9Ng</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/path</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/mappingRuleItem</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/mappingRuleItem</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType">
+      <provisioning:significant>true</provisioning:significant>
+    </com:extension>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>2UI---+t--+7EZYjuZ0vhQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/mappingRuleItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>Bx5O---o--+G---kpd9hLw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/mappingRuleItem</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>aT+c7oAKSDOVaQ2KI0r4MQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/mappingRuleItem</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/mappingRuleItem</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/mappingRuleItem</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>2UI---+t--+7EZYjuZ0vhQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/mappingRuleItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>MappingRuleType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+F---p--+2EKQAwe9KCA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/namespace</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/namespace</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>rkJd--+0--+N+y4J---CKw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/namespace</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+BDwou--+L--+af94P6Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>(Local Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>lp8y---Y--+CyQcX-WE+dQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>AttributeMappingPropertyType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>xtBoqrU3--+d--+zd5c2Pg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+x---Z--+uobFI---W4w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/path</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/path</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+zS2d6--+3--+d---9Ng</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/path</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/instanceKeyPath</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/instanceKeyPath</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>T1h2h31U--+R---ayYRH6g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/instanceKeyPath</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/instanceKey</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/instanceKey</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---q--+y--+9mu1f3BAcZA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Source/instanceKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>AttributeMappingPropertyType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>cfpT---T--+ywHJO8NYunw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/name</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/name</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---h---f--+bNLVDspFwug</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/name</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+x---Z--+uobFI---W4w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/path</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/path</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+zS2d6--+3--+d---9Ng</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/path</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/mappingRuleItem</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/mappingRuleItem</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>2UI---+t--+7EZYjuZ0vhQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/mappingRuleItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>1</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/transformedOrderItem</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>transformedOrderItem</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/transformedOrderItem</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>gR9RQMwd--+I--+DNUx+HQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/transformedOrderItem</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>tOV8tul8--+ZXNBK---1Dg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/transformedOrderItem</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>providerFunction</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>providerFunction</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+H--+V--+m---Q---fpw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>providerFunction</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>XJoOc3Nf--+PVqlPf4or8Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>providerFunction</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>tO6FJr1dQRuMOqQzZSHkkg</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>providerFunction</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>transformedOrderItem</com:element>
+    <com:elementType>transformedOrderItem</com:elementType>
+    <com:baseElement>(Reusable Structure)</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>transformedOrderItem</com:dataElementId>
+    <com:displayName>Transformed Order Item</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>-1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>bNk2f+gk--+Y---suQg6tA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>transformedOrderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>VcxvcKBe--+p---A--+uBQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>transformedOrderItem</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>transformedOrderItem/ExternalFulfillmentState</com:element>
+    <com:elementType>tns:ExternalFulfillmentState</com:elementType>
+    <com:baseElement>ExternalFulfillmentState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>transformedOrderItem/ExternalFulfillmentState</com:dataElementId>
+    <com:displayName>External Fulfillment State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>5EU-OutO--+O---2--+F7Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>transformedOrderItem/ExternalFulfillmentState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+f---j--+j---7---DXg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>transformedOrderItem/ExternalFulfillmentState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---7---N--+0z6wLPz9RGw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>transformedOrderItem/ExternalFulfillmentState</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/transformedOrderItem/ExternalFulfillmentState</com:element>
+    <com:elementType>tns:ExternalFulfillmentState</com:elementType>
+    <com:baseElement>ExternalFulfillmentState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/transformedOrderItem/ExternalFulfillmentState</com:dataElementId>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>5EU-OutO--+O---2--+F7Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/transformedOrderItem/ExternalFulfillmentState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>instanceKeyPath</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>instanceKeyPath</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+S---x--+P6h8LRstaFA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>instanceKeyPath</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>XfhA---f--+ELwNwoSw10w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>instanceKeyPath</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>fOpe--+F--+sWwZh--+33A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>instanceKeyPath</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>FyOsfH5fRd+6HH9cUUANTQ</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>instanceKeyPath</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>instanceKey</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>instanceKey</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+7B-9X--+A---g5mRhWg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>instanceKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>1</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+S---t--+Ktsc26GMNUg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>instanceKey</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>gRFs--+H--+f--+D---n1A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>instanceKey</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>uGpyXFZTTVSpDN7xT7j8zw</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>instanceKey</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Target/instanceKeyPath</com:element>
+    <com:elementType>tns:instanceKeyPath</com:elementType>
+    <com:baseElement>instanceKeyPath</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKeyPath</com:dataElementId>
+    <com:displayName>instanceKeyPath</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+LwGVv--+ReFU4---Sfg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKeyPath</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>dQ8OpjQm--+Vtc0b3AQtcg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKeyPath</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---t---n--+pgms6aEpkqQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKeyPath</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingRuleType/AttributeMapping/Target/instanceKey</com:element>
+    <com:elementType>tns:instanceKey</com:elementType>
+    <com:baseElement>instanceKey</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKey</com:dataElementId>
+    <com:displayName>instanceKey</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---6D4I---+FMh1IBjJsHw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKey</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+F--+l--+p---cw8oHAA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKey</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>---o--+Q--+awk42--+t+Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>MappingRuleType/AttributeMapping/Target/instanceKey</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/instanceKeyPath</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>instanceKeyPath</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/instanceKeyPath</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+LwGVv--+ReFU4---Sfg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/instanceKeyPath</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/instanceKey</com:element>
+    <com:elementType>tns:instanceKey</com:elementType>
+    <com:baseElement>instanceKey</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/instanceKey</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---6D4I---+FMh1IBjJsHw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/instanceKey</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/instanceKey</com:element>
+    <com:elementType>tns:instanceKey</com:elementType>
+    <com:baseElement>instanceKey</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/instanceKey</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---6D4I---+FMh1IBjJsHw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/InstantiatingMappingRule/AttributeMapping/Target/instanceKey</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/instanceKeyPath</com:element>
+    <com:elementType>(Local Structure)</com:elementType>
+    <com:baseElement>instanceKeyPath</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/instanceKeyPath</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+LwGVv--+ReFU4---Sfg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>MappingContext/ProviderFunction/TargetMapping/SourceMapping/MappingRule/AttributeMapping/Target/instanceKeyPath</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>LineID</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>LineID</com:dataElementId>
+    <com:displayName>Line ID</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>U8Fh---0--+kts4s--+Hxg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>LineID</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+YoBU6--+V---s---2Aw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>LineID</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+AMed---+j8NUv3Q5ATg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>LineID</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementTagDetails">
+        <com:id>lawf--+9--+h--+h--+EbA</com:id>
+        <com:elementType>oracle.communications.studio.model.tag.StudioModelTagDetails</com:elementType>
+        <data:dataElementId>LineID</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>BqzSpBiCRyOfU7hWSSeaCQ</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>LineID</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>RequestedDeliveryDate</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>RequestedDeliveryDate</com:dataElementId>
+    <com:displayName>Requested Delivery Date</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+dURFR--+07R9m---YcQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>RequestedDeliveryDate</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>---jPJIC--+fzCNGEQt-7A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>RequestedDeliveryDate</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>ZIIm---8--+u--++--+o8w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>RequestedDeliveryDate</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementTagDetails">
+        <com:id>L8gADUUg--+z---csF4sIQ</com:id>
+        <com:elementType>oracle.communications.studio.model.tag.StudioModelTagDetails</com:elementType>
+        <data:dataElementId>RequestedDeliveryDate</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>YlGx3-BOTSO2zPnG4TXuJg</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>RequestedDeliveryDate</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>LineName</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>LineName</com:dataElementId>
+    <com:displayName>Line Name</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+m--+S--+r---X--+bUg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>LineName</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>aHBQYqAs--+P---+---v7g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>LineName</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>gUhPecpr--+v---v---Y8Q</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>LineName</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementTagDetails">
+        <com:id>--+V---E--+GpqcAMEU7+g</com:id>
+        <com:elementType>oracle.communications.studio.model.tag.StudioModelTagDetails</com:elementType>
+        <data:dataElementId>LineName</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>jlnuS3O9S763AmU0PWL9xg</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>LineName</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentPattern</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>FulfillmentPattern</com:dataElementId>
+    <com:displayName>Fulfillment Pattern</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+rbg0w--+W--+d2p4IOQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentPattern</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+u--+g--+h86gm--+z6A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>FulfillmentPattern</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>tMUxiS0+--+0--+R---p9w</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentPattern</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>pZVzcq60Sv+KTV2bAv9h-A</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>FulfillmentPattern</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>OrderItemProcessingState</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>OrderItemProcessingState</com:dataElementId>
+    <com:displayName>Order Item Processing State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType">
+      <provisioning:significant>true</provisioning:significant>
+    </com:extension>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+6+dxI--+Y--+s109Fbw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>OrderItemProcessingState</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+1---5--+hAaVWEngQ6A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>OrderItemProcessingState</data:dataElementId>
+        <data:defaultEnumerationReference>
+          <com:relationship>oracle.communications.studio.model.data.defaultEnumeration</com:relationship>
+          <com:element>NotStarted</com:element>
+          <com:elementType></com:elementType>
+        </data:defaultEnumerationReference>
+        <data:enumeration>
+          <com:id>NotStarted</com:id>
+          <data:value>NotStarted</data:value>
+          <data:description lang="[default]">Not Started</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>InProgress</com:id>
+          <data:value>InProgress</data:value>
+          <data:description lang="[default]">In Progress</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>InProgressWithFailures</com:id>
+          <data:value>InProgressWithFailures</data:value>
+          <data:description lang="[default]">In Progress (w/ Failures)</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>InProgressWithWarnings</com:id>
+          <data:value>InProgressWithWarnings</data:value>
+          <data:description lang="[default]">In Progress (w/ Warnings)</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>Completed</com:id>
+          <data:value>Completed</data:value>
+          <data:description lang="[default]">Completed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>CompletedWithWarnings</com:id>
+          <data:value>CompletedWithWarnings</data:value>
+          <data:description lang="[default]">Completed (w/ Warnings)</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>PartiallyFailed</com:id>
+          <data:value>PartiallyFailed</data:value>
+          <data:description lang="[default]">Partially Failed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>Undoing</com:id>
+          <data:value>Undoing</data:value>
+          <data:description lang="[default]">Undoing</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoingWithFailures</com:id>
+          <data:value>UndoingWithFailures</data:value>
+          <data:description lang="[default]">Undoing (w/ Failures)</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoingWithWarnings</com:id>
+          <data:value>UndoingWithWarnings</data:value>
+          <data:description lang="[default]">Undoing (w/ Warnings)</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoFailed</com:id>
+          <data:value>UndoFailed</data:value>
+          <data:description lang="[default]">Undo Failed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoCompleted</com:id>
+          <data:value>UndoCompleted</data:value>
+          <data:description lang="[default]">Undo Completed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoCompletedWithWarnings</com:id>
+          <data:value>UndoCompletedWithWarnings</data:value>
+          <data:description lang="[default]">Undo Completed (w/ Warnings)</data:description>
+        </data:enumeration>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>oANC--+D--+h---SpuAOHQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>OrderItemProcessingState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>SFstbJIITY+NFMkfZKmHPQ</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>OrderItemProcessingState</data:dataElementId>
+        <layout:hints>
+          <layout:panel page="Default" panel="Default">
+            <layout:controlType>DropDown</layout:controlType>
+          </layout:panel>
+        </layout:hints>
+      </com:detail>
+      <com:detail xsi:type="poms:valueComplexType" linkEnabled="false" overrideDictionaryValues="false" query="" queryEnabled="false" valueEnabled="true">
+        <com:id>MposxuimQeSyNMTRD9ZHxA</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.ValueElementDetail</com:elementType>
+        <data:dataElementId>OrderItemProcessingState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="specification:CharElementDetailType">
+        <com:id>YlxveDe4QeqmFZYBfa335w</com:id>
+        <com:elementType>oracle.communications.studio.inventory.model.data.StudioModelDataElementCharDetailType</com:elementType>
+        <data:dataElementId>OrderItemProcessingState</data:dataElementId>
+        <specification:startTimestamp>0</specification:startTimestamp>
+        <specification:endTimestamp>0</specification:endTimestamp>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>OrderComponentOrderItemProcessingState</com:element>
+    <com:elementType>anyType</com:elementType>
+    <com:baseElement>string</com:baseElement>
+    <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+    <com:dataElementId>OrderComponentOrderItemProcessingState</com:dataElementId>
+    <com:displayName>Order Component Order Item Processing State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:minCardinality>0</com:minCardinality>
+    <com:maxCardinality>1</com:maxCardinality>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>---e---3--+HFJ84--+9Eg</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>OrderComponentOrderItemProcessingState</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>i6BGdlxC--+t--+D---8nA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>OrderComponentOrderItemProcessingState</data:dataElementId>
+        <data:defaultEnumerationReference>
+          <com:relationship>oracle.communications.studio.model.data.defaultEnumeration</com:relationship>
+          <com:element>NotStarted</com:element>
+          <com:elementType></com:elementType>
+        </data:defaultEnumerationReference>
+        <data:enumeration>
+          <com:id>NotStarted</com:id>
+          <data:value>NotStarted</data:value>
+          <data:description lang="[default]">Not Started</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>InProgress</com:id>
+          <data:value>InProgress</data:value>
+          <data:description lang="[default]">In Progress</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>Completed</com:id>
+          <data:value>Completed</data:value>
+          <data:description lang="[default]">Completed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>Failed</com:id>
+          <data:value>Failed</data:value>
+          <data:description lang="[default]">Failed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>FailedAbandon</com:id>
+          <data:value>FailedAbandon</data:value>
+          <data:description lang="[default]">Failed Abandon</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>FailedContinue</com:id>
+          <data:value>FailedContinue</data:value>
+          <data:description lang="[default]">Failed Continue</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>Undoing</com:id>
+          <data:value>Undoing</data:value>
+          <data:description lang="[default]">Undoing</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoCompleted</com:id>
+          <data:value>UndoCompleted</data:value>
+          <data:description lang="[default]">Undo Completed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoFailedContinue</com:id>
+          <data:value>UndoFailedContinue</data:value>
+          <data:description lang="[default]">Undo Failed Continue</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>UndoFailed</com:id>
+          <data:value>UndoFailed</data:value>
+          <data:description lang="[default]">Undo Failed</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <com:id>DownstreamCorrectionRequired</com:id>
+          <data:value>DownstreamCorrectionRequired</data:value>
+          <data:description lang="[default]">Downstream Correction Required</data:description>
+        </data:enumeration>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>GYdE---s--+55QI1IfF+Qw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>OrderComponentOrderItemProcessingState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="layout:hintDetail">
+        <com:id>eDiEa5bMQY+tU003ftFq7w</com:id>
+        <com:elementType>oracle.communications.sce.poms.model.data.UIHintsDetail</com:elementType>
+        <data:dataElementId>OrderComponentOrderItemProcessingState</data:dataElementId>
+        <layout:hints/>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>ControlData/OrderItem/OrderItemProcessingState</com:element>
+    <com:elementType>tns:OrderItemProcessingState</com:elementType>
+    <com:baseElement>OrderItemProcessingState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>ControlData/OrderItem/OrderItemProcessingState</com:dataElementId>
+    <com:displayName>Processing State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType">
+      <provisioning:significant>true</provisioning:significant>
+    </com:extension>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+O---F--+8Bk9UlUYV8g</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/OrderItemProcessingState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>--+Xnw1w--+OxM9PUGNDLw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/OrderItemProcessingState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>6JwaGadE--+7---F+eljqQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>ControlData/OrderItem/OrderItemProcessingState</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/orderItem/FunctionProcessingState</com:element>
+    <com:elementType>tns:OrderComponentOrderItemProcessingState</com:elementType>
+    <com:baseElement>OrderComponentOrderItemProcessingState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/orderItem/FunctionProcessingState</com:dataElementId>
+    <com:displayName>Function Processing State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>qxBQcuxo--+E---2fk8FEA</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem/FunctionProcessingState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>---csYon--+ki5AVpWwwQw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem/FunctionProcessingState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>--+v3QhJ--+wRpUM---gmQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/orderItem/FunctionProcessingState</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>transformedOrderItem/FunctionProcessingState</com:element>
+    <com:elementType>tns:OrderComponentOrderItemProcessingState</com:elementType>
+    <com:baseElement>OrderComponentOrderItemProcessingState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>transformedOrderItem/FunctionProcessingState</com:dataElementId>
+    <com:displayName>Function Processing State</com:displayName>
+    <com:displayName lang="en"></com:displayName>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+2gw5c--+C7qQd---W5A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>transformedOrderItem/FunctionProcessingState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementEnumerationDetail">
+        <com:id>---A1iUv--+fdtdXPvQbPw</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</com:elementType>
+        <data:dataElementId>transformedOrderItem/FunctionProcessingState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>xDA6hhMQ--+R---asrR55A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>transformedOrderItem/FunctionProcessingState</data:dataElementId>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+  <com:dataDictionaryNode>
+    <com:entity>OracleComms_OSM_CommonDataDictionary</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>com.mslv.studio.core.data.dictionary.extension</com:relationship>
+    <com:element>FulfillmentFunctionType/transformedOrderItem/FunctionProcessingState</com:element>
+    <com:elementType>tns:OrderComponentOrderItemProcessingState</com:elementType>
+    <com:baseElement>OrderComponentOrderItemProcessingState</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OracleComms_OSM_CommonDataDictionary/OracleComms_OSM_CommonDataDictionary</com:baseNamespace>
+    <com:dataElementId>FulfillmentFunctionType/transformedOrderItem/FunctionProcessingState</com:dataElementId>
+    <com:extension xsi:type="provisioning:ElementExtensionType"/>
+    <com:dataDictionaryDetails>
+      <com:detail xsi:type="data:dataElementInformationDetails">
+        <com:id>t5Fb---V--+3RTs5--+NMQ</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/transformedOrderItem/FunctionProcessingState</data:dataElementId>
+      </com:detail>
+      <com:detail xsi:type="data:dataElementCommonDetail">
+        <com:id>--+2gw5c--+C7qQd---W5A</com:id>
+        <com:elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</com:elementType>
+        <data:dataElementId>FulfillmentFunctionType/transformedOrderItem/FunctionProcessingState</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </com:detail>
+    </com:dataDictionaryDetails>
+  </com:dataDictionaryNode>
+</com:modelEntity>

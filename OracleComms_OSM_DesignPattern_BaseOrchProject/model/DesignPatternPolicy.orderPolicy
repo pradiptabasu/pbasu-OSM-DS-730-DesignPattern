@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:ord="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xsi:type="orderStatePolicyType" name="DesignPatternPolicy">
+  <com:displayName>DesignPatternPolicy</com:displayName>
+  <com:saveVersion>2</com:saveVersion>
+  <com:id>--+vT7hI--+OTEg-um0enA</com:id>
+  <completedOrderState>
+    <updateOrderTransaction>
+      <permission name="Permission">
+        <workgroup>
+          <com:entity>admin</com:entity>
+          <com:entityType>rolePermissions</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderPolicy.role</com:relationship>
+        </workgroup>
+      </permission>
+    </updateOrderTransaction>
+  </completedOrderState>
+  <inProgressState>
+    <raiseExceptionTransaction>
+      <permission name="Permission">
+        <workgroup>
+          <com:entity>admin</com:entity>
+          <com:entityType>rolePermissions</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderPolicy.role</com:relationship>
+        </workgroup>
+      </permission>
+    </raiseExceptionTransaction>
+    <updateOrderTransaction>
+      <permission name="Permission">
+        <workgroup>
+          <com:entity>admin</com:entity>
+          <com:entityType>rolePermissions</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderPolicy.role</com:relationship>
+        </workgroup>
+      </permission>
+    </updateOrderTransaction>
+  </inProgressState>
+  <notStartedOrderState>
+    <deleteOrderTransaction>
+      <permission name="Permission">
+        <workgroup>
+          <com:entity>admin</com:entity>
+          <com:entityType>rolePermissions</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderPolicy.role</com:relationship>
+        </workgroup>
+      </permission>
+    </deleteOrderTransaction>
+    <updateOrderTransaction>
+      <permission name="Permission">
+        <workgroup>
+          <com:entity>admin</com:entity>
+          <com:entityType>rolePermissions</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderPolicy.role</com:relationship>
+        </workgroup>
+      </permission>
+    </updateOrderTransaction>
+  </notStartedOrderState>
+</com:modelEntity>
